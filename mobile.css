@@ -1,0 +1,15 @@
+@media only screen and(max-width: 480px) {
+nav horizontal ul {
+display: none;
+}
+
+a#navicon{
+	display: block;
+	height: 5%;
+	width: 5%;
+}
+nav.horizontal a#navicon:hover+ul, nav.horizontal a#navicon ul:hover{
+	display: block;
+}
+}
+
